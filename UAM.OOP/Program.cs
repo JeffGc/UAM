@@ -73,6 +73,13 @@ namespace UAM.OOP
 
             //Console.ReadKey();
 
+
+            Colecciones colecciones = new Colecciones();
+
+            colecciones.ListaString();
+
+            Console.ReadKey();
+
             
 
         }
