@@ -2,4 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/UAM.OOP/UAM.OOP/obj
+/UAM.OOP/bin
+/UAM.OOP/obj
+/.vs
