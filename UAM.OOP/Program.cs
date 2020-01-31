@@ -74,13 +74,47 @@ namespace UAM.OOP
             //Console.ReadKey();
 
 
-            Colecciones colecciones = new Colecciones();
+            //Colecciones colecciones = new Colecciones();
 
-            colecciones.ListaString();
+            //colecciones.ListaString();
+
+            //Console.ReadKey();
+
+
+
+            ///////////////////Tarea reproductores
+            ///
+
+            // PersonaDeportesCAbst personaDeportesCAbst = new PersonaDeportesCAbst(); //Error porque las clases abstractas no se pueden instanciar se hace por los hijos
+
+            Reproductores reproductores = new VHS();
+            VHS vHS = new VHS();
+            DVD dVD = new DVD();
+            Netflix netflix = new Netflix();
+
+            Console.WriteLine("\nVHS: ");
+            vHS.Play();
+            vHS.Stop();
+            vHS.Forward();
+            vHS.Rewind();
+
+            Console.WriteLine("\nDVD:");
+            dVD.Play();
+            dVD.Stop();
+            dVD.Forward();
+            dVD.Rewind();
+
+            Console.WriteLine("\nNetflix:");
+            netflix.Play();
+            netflix.Stop();
+            netflix.Forward();
+            netflix.Rewind();
+
+
 
             Console.ReadKey();
 
-            
+
 
         }
     }
