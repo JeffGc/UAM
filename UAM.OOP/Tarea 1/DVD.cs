@@ -9,7 +9,14 @@ namespace UAM.OOP
 	public class DVD : Reproductores
 
 	{
-		public override void Play()
+		private int _ID;
+		private string _Nombre;
+
+		public int ID { get => _ID; set => _ID = value; }
+		public string Nombre { get => _Nombre; set => _Nombre = value; }
+
+        #region metodosReproductores
+        public override void Play()
 		{
 			Console.WriteLine("Play DVD");
 		}
@@ -26,8 +33,7 @@ namespace UAM.OOP
 		{
 			Console.WriteLine("Rewind DVD");
 		}
+        #endregion
 
-
-
-	}
+    }
 }
