@@ -9,11 +9,29 @@ namespace UAM.OOP
 	public class DVD : Reproductores
 
 	{
-		private int _ID;
+        #region atributosPropios
+
+        // Atributos
+        private int _ID;
 		private string _Nombre;
 
+        // Propiedades
 		public int ID { get => _ID; set => _ID = value; }
 		public string Nombre { get => _Nombre; set => _Nombre = value; }
+        
+        //Constructores
+        public DVD()
+        {
+
+        }
+
+        public DVD (int ID, string Nombre)
+        {
+            _ID = ID;
+            _Nombre = Nombre;
+        }
+
+        #endregion
 
         #region metodosReproductores
         public override void Play()

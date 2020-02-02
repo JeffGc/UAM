@@ -59,6 +59,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tarea 1\DVD.cs" />
+    <Compile Include="Tarea 1\CRUD.cs" />
+    <Compile Include="Tarea 1\ImplementarInterface.cs" />
     <Compile Include="Tarea 1\Netflix.cs" />
     <Compile Include="Tarea 1\Reproductores.cs" />
     <Compile Include="Tarea 1\VHS.cs" />

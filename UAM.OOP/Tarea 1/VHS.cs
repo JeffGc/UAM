@@ -9,7 +9,32 @@ namespace UAM.OOP
 	public class VHS : Reproductores
 
 	{
-		public override void Play()
+        #region atributosPropios
+
+        // Atributos
+        private int _ID;
+        private string _Nombre;
+
+        // Propiedades
+        public int ID { get => _ID; set => _ID = value; }
+        public string Nombre { get => _Nombre; set => _Nombre = value; }
+
+        //Constructores
+        public VHS()
+        {
+
+        }
+
+        public VHS(int ID, string Nombre)
+        {
+            _ID = ID;
+            _Nombre = Nombre;
+        }
+
+        #endregion
+
+        #region metodosReproductores
+        public override void Play()
 		{
 			Console.WriteLine("Play VHS");
 		}
@@ -27,7 +52,7 @@ namespace UAM.OOP
 			Console.WriteLine("Rewind VHS");
 		}
 
+        #endregion
 
-
-	}
+    }
 }
