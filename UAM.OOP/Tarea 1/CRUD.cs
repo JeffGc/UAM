@@ -8,8 +8,8 @@ namespace UAM.OOP
 {
     interface CRUD
     {
-        void Insertar();
-        void Eliminar();
-        void Buscar();
+        void Insertar<T>();
+        void Eliminar<T>();
+        void Buscar<T>();
     }
 }

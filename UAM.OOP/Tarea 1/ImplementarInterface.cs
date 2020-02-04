@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace UAM.OOP
 {
-    public class ImplementarInterface : CRUD
-
+    public class ImplementarInterface<T> : CRUD
     {
-        public void Buscar()
+        List<T> listaT = new List<T>();
+        public void Buscar<T>()
         {
             throw new NotImplementedException();
         }
 
-        public void Eliminar()
+        public void Eliminar<T>()
         {
             throw new NotImplementedException();
         }
 
-        public void Insertar()
+        public void Insertar<T>()
         {
             throw new NotImplementedException();
         }
