@@ -6,22 +6,27 @@ using System.Threading.Tasks;
 
 namespace UAM.OOP
 {
-    public class ImplementarInterface<T> : CRUD
+    public class ImplementarInterface<T> : ICRUD<T>
     {
-        List<T> listaT = new List<T>();
-        public void Buscar<T>()
+        List<T> lista = new List<T>();
+
+        public T Buscar(int posicion)
         {
-            throw new NotImplementedException();
+
+            Console.WriteLine("Buscando elemento en posicion: " + posicion + "\n");
+            return lista.ElementAt(posicion);
         }
 
-        public void Eliminar<T>()
+        public void Eliminar(int indice)
         {
-            throw new NotImplementedException();
+            lista.RemoveAt(indice);
+            Console.WriteLine("Eliminando: " + indice + "\n");
         }
 
-        public void Insertar<T>()
+        public void Insertar(T item)
         {
-            throw new NotImplementedException();
+            lista.Add(item);
+            Console.WriteLine("Insertando: " + item + "\n");
         }
     }
 }

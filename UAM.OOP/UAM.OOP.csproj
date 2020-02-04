@@ -51,7 +51,6 @@
     <Compile Include="Clases Simples\Persona.cs" />
     <Compile Include="Clases Simples\Profesor.cs" />
     <Compile Include="Colecciones\Colecciones - Copy.cs" />
-    <Compile Include="Colecciones\Colecciones.cs" />
     <Compile Include="Generics\MyGenericClass.cs" />
     <Compile Include="Inteface\Gente.cs" />
     <Compile Include="Inteface\IAcciones.cs" />
@@ -60,7 +59,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tarea 1\DVD.cs" />
-    <Compile Include="Tarea 1\CRUD.cs" />
+    <Compile Include="Tarea 1\ICRUD.cs" />
     <Compile Include="Tarea 1\ImplementarInterface.cs" />
     <Compile Include="Tarea 1\Netflix.cs" />
     <Compile Include="Tarea 1\Reproductores.cs" />
