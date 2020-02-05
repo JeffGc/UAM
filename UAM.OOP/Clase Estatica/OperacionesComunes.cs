@@ -20,24 +20,24 @@ namespace UAM.OOP
 			return n1 + n2 + n3;
 		}
 
-		public static void EscribirNumero1(int n1)
-		{
-			_numero1 = n1;
-		}
+        public static void EscribirNumero1(int n1)
+        {
+            _numero1 = n1;
+        }
 
-		public static void setNumero1(int n1)
-		{
-			_numero1 = n1;
-		}
+        public static void setNumero1(int n1)
+        {
+            _numero1 = n1;
+        }
 
-		public static void EscribirNumero2(int n2)
-		{
-			_numero2 = n2;
-		}
+        public static void EscribirNumero2(int n2)
+        {
+            _numero2 = n2;
+        }
 
-		public static void setNumero2(int n2)
-		{
-			_numero2 = n2;
-		}
-	}
+        public static void setNumero2(int n2)
+        {
+            _numero2 = n2;
+        }
+    }
 }

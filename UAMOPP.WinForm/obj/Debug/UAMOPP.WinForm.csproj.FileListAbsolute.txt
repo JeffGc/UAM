@@ -1,0 +1,10 @@
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\UAMOPP.WinForm\bin\Debug\UAMOPP.WinForm.exe.config
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\UAMOPP.WinForm\bin\Debug\UAMOPP.WinForm.exe
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\UAMOPP.WinForm\bin\Debug\UAMOPP.WinForm.pdb
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\UAMOPP.WinForm\obj\Debug\UAMOPP.WinForm.csprojAssemblyReference.cache
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\UAMOPP.WinForm\obj\Debug\UAMOPP.WinForm.Form1.resources
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\UAMOPP.WinForm\obj\Debug\UAMOPP.WinForm.Properties.Resources.resources
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\UAMOPP.WinForm\obj\Debug\UAMOPP.WinForm.csproj.GenerateResource.cache
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\UAMOPP.WinForm\obj\Debug\UAMOPP.WinForm.csproj.CoreCompileInputs.cache
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\UAMOPP.WinForm\obj\Debug\UAMOPP.WinForm.exe
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\UAMOPP.WinForm\obj\Debug\UAMOPP.WinForm.pdb

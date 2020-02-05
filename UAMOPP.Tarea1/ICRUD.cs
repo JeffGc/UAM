@@ -12,7 +12,7 @@ namespace UAMOPP.Tarea1
         void Eliminar(int indice);
         T Buscar(int indice);
 
-        void Imprimir();
+       
 
     }
 }

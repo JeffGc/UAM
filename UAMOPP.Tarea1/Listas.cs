@@ -28,6 +28,6 @@ namespace UAMOPP.Tarea1
             lista.Add(item);
         }
 
-  
+        
     }
 }

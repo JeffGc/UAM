@@ -12,20 +12,25 @@ namespace UAMOPP.Tarea1
         {
             IReproductores reproductores = new VHS();
 
-            ICRUD<IReproductores> lista = new Listas();
+            //ICRUD<IReproductores> lista = new Listas();
 
-            Listas ejemple = new Listas();
+            Listas ejemplo = new Listas();
+
+            // Formas de Instanciar el objeto
+
+            //1
+            IReproductores VHS = new VHS(0, "VHS");
+            ejemplo.Insertar(VHS);
 
 
+            //2
+            ejemplo.Insertar(new DVD(1, "DVD"));
 
-            IReproductores VHS = new VHS(0,"VHS");
-
-            lista.Insertar(VHS);
+            //3
+            ejemplo.Insertar(new Netflix() { ID = 1, Nombre = "Netflix" }); 
 
             Console.ReadKey();
 
-           
-
-            }
+        }
     }
 }

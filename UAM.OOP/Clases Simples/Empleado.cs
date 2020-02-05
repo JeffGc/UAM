@@ -37,6 +37,8 @@ namespace UAM.OOP.Clases_simple
 			_sede = sede;
 		}
 
-		#endregion
+        #endregion
+
+           
 	}
 }
