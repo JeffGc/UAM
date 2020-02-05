@@ -112,6 +112,10 @@ namespace UAM.OOP
 
             Console.ReadKey();
 
+            List<Reproductores> Lreproductores = new ICRUD();
+
+        
+
 
 
         }

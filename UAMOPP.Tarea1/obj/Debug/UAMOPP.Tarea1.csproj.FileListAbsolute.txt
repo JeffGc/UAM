@@ -1,0 +1,7 @@
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\UAMOPP.Tarea1\bin\Debug\UAMOPP.Tarea1.exe.config
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\UAMOPP.Tarea1\bin\Debug\UAMOPP.Tarea1.exe
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\UAMOPP.Tarea1\bin\Debug\UAMOPP.Tarea1.pdb
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\UAMOPP.Tarea1\obj\Debug\UAMOPP.Tarea1.csprojAssemblyReference.cache
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\UAMOPP.Tarea1\obj\Debug\UAMOPP.Tarea1.csproj.CoreCompileInputs.cache
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\UAMOPP.Tarea1\obj\Debug\UAMOPP.Tarea1.exe
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\UAMOPP.Tarea1\obj\Debug\UAMOPP.Tarea1.pdb

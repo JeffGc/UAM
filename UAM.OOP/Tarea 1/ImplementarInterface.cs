@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace UAM.OOP
 {
-    public class ImplementarInterface<T> : ICRUD<T>
+    public class ImplementarInterface<Reproductores> : ICRUD<Reproductores>
     {
-        List<T> lista = new List<T>();
+        List<Reproductores> lista = new List<Reproductores>();
 
-        public T Buscar(int posicion)
+        public Reproductores Buscar(int posicion)
         {
 
             Console.WriteLine("Buscando elemento en posicion: " + posicion + "\n");
@@ -23,7 +23,7 @@ namespace UAM.OOP
             Console.WriteLine("Eliminando: " + indice + "\n");
         }
 
-        public void Insertar(T item)
+        public void Insertar(Reproductores item)
         {
             lista.Add(item);
             Console.WriteLine("Insertando: " + item + "\n");
