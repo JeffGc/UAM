@@ -29,6 +29,10 @@ namespace UAMOPP.Tarea1
             //3
             ejemplo.Insertar(new Netflix() { ID = 1, Nombre = "Netflix" }); 
 
+            ejemplo.Eliminar(0);
+
+            ejemplo.Buscar(0);
+
             Console.ReadKey();
 
         }

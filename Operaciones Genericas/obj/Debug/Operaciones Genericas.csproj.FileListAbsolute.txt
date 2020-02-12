@@ -1,0 +1,7 @@
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\Operaciones Genericas\bin\Debug\Operaciones Genericas.exe.config
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\Operaciones Genericas\bin\Debug\Operaciones Genericas.exe
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\Operaciones Genericas\bin\Debug\Operaciones Genericas.pdb
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\Operaciones Genericas\obj\Debug\Operaciones Genericas.csprojAssemblyReference.cache
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\Operaciones Genericas\obj\Debug\Operaciones Genericas.csproj.CoreCompileInputs.cache
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\Operaciones Genericas\obj\Debug\Operaciones Genericas.exe
+C:\Users\Soporte\Source\Repos\JeffGc\UAM\Operaciones Genericas\obj\Debug\Operaciones Genericas.pdb

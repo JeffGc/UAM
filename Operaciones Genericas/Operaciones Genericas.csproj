@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3596D584-B8CE-4AD1-AC1E-4AB5DF9E52A4}</ProjectGuid>
+    <ProjectGuid>{C84A28C5-CFD1-4C20-8C3F-EB2CA2A098C8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>UAMOPP.Tarea1</RootNamespace>
-    <AssemblyName>UAMOPP.Tarea1</AssemblyName>
+    <RootNamespace>Operaciones_Genericas</RootNamespace>
+    <AssemblyName>Operaciones Genericas</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,15 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1Generic.cs" />
-    <Compile Include="ICRUD.cs" />
-    <Compile Include="IReproductores.cs" />
-    <Compile Include="Listas.cs" />
+    <Compile Include="Bool.cs" />
+    <Compile Include="INT.cs" />
+    <Compile Include="IOperaciones.cs" />
+    <Compile Include="lista.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="DVD.cs" />
-    <Compile Include="Netflix.cs" />
-    <Compile Include="VHS.cs" />
+    <Compile Include="String.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
