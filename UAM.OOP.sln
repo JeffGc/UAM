@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UAMOPP.Tarea1", "UAMOPP.Tar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operaciones Genericas", "Operaciones Genericas\Operaciones Genericas.csproj", "{C84A28C5-CFD1-4C20-8C3F-EB2CA2A098C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QUIZ1", "QUIZ1\QUIZ1.csproj", "{5AB5A1D4-9815-40AB-B2F7-5B081B92ED74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C84A28C5-CFD1-4C20-8C3F-EB2CA2A098C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C84A28C5-CFD1-4C20-8C3F-EB2CA2A098C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C84A28C5-CFD1-4C20-8C3F-EB2CA2A098C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AB5A1D4-9815-40AB-B2F7-5B081B92ED74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB5A1D4-9815-40AB-B2F7-5B081B92ED74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB5A1D4-9815-40AB-B2F7-5B081B92ED74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB5A1D4-9815-40AB-B2F7-5B081B92ED74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
