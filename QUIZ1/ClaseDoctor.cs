@@ -8,35 +8,36 @@ namespace QUIZ1
 {
     class ClaseDoctor : ClasePersona
     {
+        #region Atributos Doctor
         //Atributos
 
-        private int _especialidad;
+        private string _especialidad;
 
         // get / set
-        public int Especialidad { get => _especialidad; set => _especialidad = value; }
+        public string Especialidad { get => _especialidad; set => _especialidad = value; }
 
         // contructores
         public ClaseDoctor()
         {
         }
 
-        public ClaseDoctor(int especialidad)
+        public ClaseDoctor(string especialidad)
         {
             _especialidad = especialidad;
         }
 
         // Contructor que llama la clase base (ClasePersona)
-        public ClaseDoctor(int especialidad, int id, string nombre, string apellido, int cedula) 
+        public ClaseDoctor(string especialidad, int id, string nombre, string apellido, int cedula) 
             : base( id, nombre, apellido, cedula)
         {
             _especialidad = especialidad;
         }
 
+        #endregion
         // override ToString
-
         public override String NombreCompleto()
         {
-            Console.WriteLine(Nombre);
+            
             return string.Format(" Id: {0}, /n Nombre: {1},/n Especialidad: {2} ", Id, Nombre, Especialidad);
         }
 

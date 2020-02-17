@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 namespace QUIZ1
 {
     class ClasePersona
-    {
-
+    { 
         #region AtributosPersona
 
         private int _id;

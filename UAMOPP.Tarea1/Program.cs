@@ -10,7 +10,7 @@ namespace UAMOPP.Tarea1
     {
         static void Main(string[] args)
         {
-            IReproductores reproductores = new VHS();
+           // IReproductores reproductores = new VHS();
 
             //ICRUD<IReproductores> lista = new Listas();
 
@@ -21,6 +21,8 @@ namespace UAMOPP.Tarea1
             //1
             IReproductores VHS = new VHS(0, "VHS");
             ejemplo.Insertar(VHS);
+
+            
 
 
             //2
