@@ -38,7 +38,7 @@ namespace QUIZ1
         public override String NombreCompleto()
         {
             
-            return string.Format(" Id: {0}, /n Nombre: {1},/n Especialidad: {2} ", Id, Nombre, Especialidad);
+            return string.Format(" Id: {0},  Nombre: {1}, Especialidad: {2} ", Id, Nombre, Especialidad);
         }
 
     }

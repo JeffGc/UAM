@@ -17,7 +17,7 @@ namespace QUIZ1
 
         //Get / Set
         public int Telefono { get => _telefono; set => _telefono = value; }
-        public string String { get => _correo; set => _correo = value; }
+        public string correo { get => _correo; set => _correo = value; }
 
         #endregion
 
@@ -48,7 +48,7 @@ namespace QUIZ1
         public override String NombreCompleto()
         {
             
-            return string.Format(" Id: {0}, /n Nombre: {1}, ", Id, Nombre);
+            return string.Format(" Id: {0},  Nombre: {1} ", Id, Nombre);
         }
 
     }
